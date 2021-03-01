@@ -14,13 +14,15 @@ include 'db.php';
 </head>
 <body>
 
-  
-  <?php foreach ($dischi as $disco) {
+
+  <?php foreach ($dischi as $disco) { ?>
+
     $immagine= $disco['image'];
     $autore= $disco ['author'];
     $titolo=$disco ['title'];
     $anno= $disco ['year'];
-  }; ?>
+    
+  <?php } ?>
 
 <img src="<?php echo $immgine ?>" alt="">
 <h1><?php echo $autore ?></h1>
