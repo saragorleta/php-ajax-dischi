@@ -1,13 +1,6 @@
 <?php
 include 'db.php';
 
-foreach ($dischi as $disco) {
-  $immagine= $disco['image'];
-  $autore= $disco ['author'];
-  $titolo=$disco ['title'];
-  $anno= $disco ['year'];
-};
-
  ?>
 
 
@@ -20,6 +13,14 @@ foreach ($dischi as $disco) {
   <title>Document</title>
 </head>
 <body>
+
+  
+  <?php foreach ($dischi as $disco) {
+    $immagine= $disco['image'];
+    $autore= $disco ['author'];
+    $titolo=$disco ['title'];
+    $anno= $disco ['year'];
+  }; ?>
 
 <img src="<?php echo $immgine ?>" alt="">
 <h1><?php echo $autore ?></h1>
