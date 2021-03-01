@@ -10,14 +10,14 @@
     ],
     [
       'image'=>"",
-      'autor'=>"michael jackson",
-      'title'=>"ciao",
+      'autor'=>"ACDC",
+      'title'=>"Back in Black",
       'year' =>"1920"
 
     ],
     [
       'image'=>"",
-      'autor'=>"michael jackson",
+      'autor'=>"",
       'title'=>"ciao",
       'year' =>"1920"
 
@@ -30,7 +30,7 @@
 
     ]
 
-  ]
+  ];
 
 
 

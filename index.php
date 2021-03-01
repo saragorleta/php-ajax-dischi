@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'src/db.php';
 
  ?>
 
@@ -34,7 +34,7 @@ include 'db.php';
     <h2><?php echo $disco ?></h2>
 
 
-<?php } ?>
+  <?php } ?>
 
 </body>
 </html>
