@@ -80,7 +80,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/js/script": 0
+/******/ 			"/dist/script": 0
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [

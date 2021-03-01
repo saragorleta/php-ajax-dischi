@@ -1,0 +1,15 @@
+// colori
+$c-Black:black;
+$c-white:white;
+$c-grey:grey;
+
+
+// altezze e largezze
+$altezzaHeader:100px;
+$altezzaHeaderTop:45px;
+$altezzaHeaderBottom:calc(#{$altezzaHeader} - #{$altezzaHeaderTop});
+$larghezzaDesktop:1200px;
+
+// padding e margin
+$padding-20:20px;
+$margin-20:20px;
