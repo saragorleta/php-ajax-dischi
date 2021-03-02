@@ -21,12 +21,12 @@
       <main>
 
           <div class="disco">
-            <div v-for="disco in dischi"></div>
-            <img src="" alt="">
+            <div v-for="disco in dischi">
+            <img :src="disco.image" alt="copertina">
             <h1>{{disco.author}}</h1>
             <h2>{{disco.title}}</h2>
             <h2>{{disco.year}}</h2>
-
+            </div>
           </div>
 
       </main>
