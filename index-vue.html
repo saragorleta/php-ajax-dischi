@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <!-- link ajax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+
+
+  </header>
+  <div id="app">
+      <main>
+
+          <div class="disco">
+            <div v-for="disco in dischi"></div>
+            <img src="" alt="">
+            <h1>{{disco.author}}</h1>
+            <h2>{{disco.title}}</h2>
+            <h2>{{disco.year}}</h2>
+
+          </div>
+
+      </main>
+
+  </div>
+
+
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,55 +1,15 @@
 <?php
 include 'db.php';
+include __DIR__ .'/src/partials-php/head.php';
+include __DIR__ .'/src/partials-php/header.php';
+include __DIR__ .'/src/partials-php/main.php';
+include __DIR__ .'/src/partials-php/footer.php';
+?>
+  <!-- __DIR__ serve per essere piu specifici nel percorso delle cartelle, e stampa il percorso del file
+  è utile soprattutto quando ci sono molte cartelle e bisogna risalire più livelli, in caso di errori si puo'
+fare il var_dump(__DIR__) cosi da vedere tutto il percorso  -->
 
- ?>
+  <!-- abbiamo suddiviso le varie parti in partials-php per organizzare meglio il lavoro
+      e abbiamo creato il collegamento ai vari file(head, header, main,footer) -->
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="dist/style.css?v=<?php echo time(); ?>">
-  <title>Document</title>
-</head>
-<body>
-
-<header>
-
-
-</header>
-<main>
-
-  <?php foreach ($dischi as $disco) {
-    $immagine= $disco['image'];
-    $autore= $disco['author'];
-    $titolo=$disco['title'];
-    $anno= $disco['year'];
-
-  ?>
-      <div class="disco">
-        <img src="<?php echo $immagine ?>" alt="">
-        <h1><?php echo $autore ?></h1>
-        <h2><?php echo $titolo ?></h2>
-        <h2><?php echo $anno ?></h2>
-      </div>
-
-
-
-
-
-  <?php } ?>
-</main>
-
-<footer>
-
-
-</footer>
-
-
-
-<script src="dist/script.js" charset="utf-8"></script>
-
-</body>
-</html>
+  <!-- da ricordare il body->si inserisce nell'header l'apertura e la chiusura nel footer compresa di link src e chiusura html -->
